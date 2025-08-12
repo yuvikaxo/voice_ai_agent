@@ -1,0 +1,9 @@
+google_api_python_client==2.177.0
+google_auth_oauthlib==1.2.2
+numpy==1.22.0
+protobuf==6.31.1
+PyAudio==0.2.14
+sounddevice==0.5.2
+torch==2.5.1+cu121
+tts==0.22.0
+vosk==0.3.45

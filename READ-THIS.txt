@@ -1,0 +1,15 @@
+- use python version 3.10
+
+- start with file 13.py
+- right now 13.py is the best but was slow due to less gpu, may work better with more gpu
+
+- 10.py is very good too, but may give hallucinated response
+- 15.py is a variation of 13.py, check if it works better
+
+- 13.py and 15.py:  - stt: vosk
+                    - llm: llama3
+                    - tts: xtts
+
+- 10.py:  - stt: vosk
+          - llm: llama-cpp
+          - tts: xtts
