@@ -323,12 +323,12 @@ def handle_intent(intent, user_input):
         except Exception as e:
             return f"There was a problem in creating reminders. {e}"
     elif intent == "send_email":
-            recipient = "rishikasingh0005@gmail.com"
+            recipient = ""
             subject = "Meeting Update"
             body = "Hey, just wanted to confirm our meeting at 4 PM today."
             # You can store these securely or use env variables
-            sender = "yuvika.hay@gmail.com"
-            password = "nyvq fqmg icmg zqpl"
+            sender = ""
+            password = ""
             success = send_email(sender, password, recipient, subject, body)
             if success:
                 print("Email sent successfully.")
